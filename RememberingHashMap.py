@@ -34,8 +34,3 @@ t1 = kv.set('foo', 'bar') #100
 time.sleep(2)# 102
 t2 = kv.set('foo', 'new_bar')#103
 print(kv.get('foo', t1)) # -> bar,
-
-#internal_map = { 'foo': 'bar', 'foo2': 'bar2' }
-# -> be able to store time alongside the key and value
-#internal_map = { 'foo123': 'bar', 'foo2567': 'bar2' }
-#key_time_map = { 'foo': '123', 'bar2': '567' }
